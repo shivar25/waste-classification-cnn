@@ -276,18 +276,6 @@ This provides a qualitative understanding of the model's performance beyond nume
 - Pillow
 - Google Colab
 
-## Project Structure
-
-```text
-waste-classification-cnn/
-│
-├── Waste_Classification_CNN.ipynb
-├── README.md
-├── requirements.txt
-├── .gitignore
-│
-└── model/
-    └── waste_classification_cnn_final.keras
 ```
 
 ## Requirements
@@ -356,22 +344,6 @@ Waste_Classification_CNN.ipynb
 
 The notebook contains the complete workflow from dataset exploration and preprocessing to model training and evaluation.
 
-## Saved Model
-
-The trained model is saved as:
-
-```text
-model/waste_classification_cnn_final.keras
-```
-
-The model can be loaded using:
-
-```python
-import tensorflow as tf
-
-model = tf.keras.models.load_model(
-    "model/waste_classification_cnn_final.keras"
-)
 ```
 
 ## Future Improvements
